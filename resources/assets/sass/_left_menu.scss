@@ -1,0 +1,137 @@
+/****** 3.LEFT SIDEBAR ******/
+
+.left-aside {
+    width: 240px;
+    background: #0d1b31;
+  }
+  
+  .nav_profile .content-profile .media-heading {
+    padding-left: 10px;
+  }
+  
+  .nav_profile .content-profile .icon-list {
+    padding-left: 5px;
+  }
+  
+  .nav_profile .content-profile .icon-list li {
+    display: inline-block;
+    padding: 0;
+    vertical-align: top;
+    padding: 5px;
+  }
+  
+  .nav_profile .content-profile .icon-list li a:hover {
+    color: #f5aa40;
+  }
+  
+  .content-header h1 {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  
+  .badge {
+    font-weight: 400;
+  }
+  
+  .sub-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .border-b {
+    padding: .75rem 1rem;
+    font-size: 80%;
+    font-weight: 700;
+    color: #e4e7ea;
+    text-transform: uppercase;
+  }
+  
+  #menu li.active > a {
+    padding: 11px 20px 11px 17px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    border-left: 3px solid #f5aa40;
+    -webkit-transition: none;
+    transition: none;
+  }
+  
+  #menu .navigation li > a {
+    border-right: 1px solid #EEE;
+  }
+  
+  #menu .navigation a,
+  #menu .navigation a:hover,
+  #menu .navigation li.active a {
+    text-decoration: none !important;
+  }
+  
+  #menu .profile-left li > a:hover {
+    color: #0A1414;
+  }
+  
+  #menu li > a:hover,
+  #menu li.active > a i {
+    color: #f5aa40;
+  }
+  
+  #menu .menu-dropdown > ul {
+    background: rgba(0,0,0,.2);
+  }
+  
+  #menu .menu-dropdown > ul > li > a {
+    padding-left: 37px;
+  }
+  
+  #menu .menu-dropdown > ul > li.active > a {
+    padding-left: 34px;
+  }
+  
+  #menu .navigation {
+    padding: 0 0 15px;
+  }
+  
+  #menu .navigation a {
+    text-align: left;
+    color: #fff;
+    position: relative;
+    display: block;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 11px 20px;
+    -webkit-transition: none;
+    transition: none;
+  }
+  
+  #menu .navigation a .nav-text {
+    vertical-align: top;
+  }
+  
+  #menu .navigation a i {
+    color: #73818f;
+    font-size: 18px;
+  }
+  
+  #menu .navigation .menu-icon {
+    display: inline-block;
+    margin-right: 5px;
+    line-height: 20px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  #menu .fa.arrow:before {
+    content: "\F105";
+  }
+  
+  #menu .active > a > .fa.arrow:before {
+    content: "\F107";
+  }
+  
+  #menu li a {
+    font-size: 13px;
+  }
+  
+  /******* END LEFT SIDEBAR *****/

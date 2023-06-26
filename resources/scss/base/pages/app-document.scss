@@ -1,0 +1,165 @@
+@import '../bootstrap-extended/include'; // Bootstrap includes
+@import '../components/include'; // Components includes
+
+$product-details-bg: #fcfcfc;
+$document-spacing: 1.45rem 0;
+$document-card-body-padding: 2.5rem;
+
+// Document Preview, Edit & Add
+.document-preview,
+.document-edit,
+.document-add {
+  .document-padding {
+    padding-left: $document-card-body-padding;
+    padding-right: $document-card-body-padding;
+  }
+  .table {
+    th:first-child,
+    td:first-child {
+      padding-left: 2.5rem;
+    }
+  }
+  .logo-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.9rem;
+    .document-logo {
+      font-size: 2.142rem;
+      font-weight: bold;
+      letter-spacing: -0.54px;
+      margin-left: 1rem;
+      margin-bottom: 0;
+    }
+  }
+  .document-title {
+    font-size: 1.285rem;
+    margin-bottom: 1rem;
+    .document-number {
+      font-weight: 600;
+    }
+  }
+  .document-date-wrapper {
+    display: flex;
+    align-items: center;
+
+    &:not(:last-of-type) {
+      margin-bottom: 0.5rem;
+    }
+
+    .document-date-title {
+      width: 7rem;
+      margin-bottom: 0;
+    }
+    .document-date {
+      margin-left: 0.5rem;
+      font-weight: 600;
+      margin-bottom: 0;
+    }
+  }
+  .document-spacing {
+    margin: $document-spacing;
+  }
+  .document-number-date {
+    .title {
+      width: 115px;
+    }
+  }
+  .document-total-wrapper {
+    width: 100%;
+    max-width: 12rem;
+    .document-total-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .document-total-title {
+        margin-bottom: 0.35rem;
+      }
+      .document-total-amount {
+        margin-bottom: 0.35rem;
+        font-weight: 600;
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    .document-title {
+      text-align: right;
+      margin-bottom: 3rem;
+    }
+  }
+}
+
+// Document Edit & Add
+.document-edit,
+.document-add {
+  .document-preview-card {
+    .document-title {
+      text-align: left;
+      margin-right: 3.5rem;
+      margin-bottom: 0;
+    }
+    .document-edit-input,
+    .document-edit-input-group {
+      max-width: 11.21rem;
+    }
+    .document-product-details {
+      background-color: $product-details-bg;
+      .product-details-border {
+        border: 1px solid $border-color;
+        border-radius: $border-radius;
+      }
+    }
+    .document-to-title {
+      margin-bottom: 1.9rem;
+    }
+    .col-title {
+      position: absolute;
+      top: -1.75rem;
+    }
+    .item-options-menu {
+      min-width: 20rem;
+    }
+    .repeater-wrapper {
+      &:not(:last-child) {
+        margin-bottom: 1rem;
+      }
+    }
+    .document-calculations {
+      .total-amt-title {
+        width: 100px;
+      }
+    }
+    .select2-container--default {
+      // multiple select scss
+      .select2-selection--multiple {
+        // selected items bg color for multiple selection
+        .select2-selection__choice {
+          background-color: rgba($primary, 0.12) !important;
+          border-color: $border-color !important;
+          color: $primary;
+          padding: 2px 5px;
+        }
+        .select2-selection__choice__remove:before {
+          background-image: url(str-replace(str-replace($remove, 'currentColor', $primary), '#', '%23'));
+        }
+      }
+    }
+  }
+  @media (max-width: 769px) {
+    .document-preview-card {
+      .document-title {
+        margin-right: 0;
+        width: 115px;
+      }
+      .document-edit-input {
+        max-width: 100%;
+      }
+    }
+  }
+  @media (max-width: 992px) {
+    .col-title {
+      position: unset !important;
+      top: -1.5rem !important;
+    }
+  }
+}

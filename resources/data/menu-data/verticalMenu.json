@@ -1,0 +1,103 @@
+{
+  "menu": [
+    {
+      "url": "dashboard",
+      "name": "Panel",
+      "icon": "pie-chart",
+      "slug": "dashboard"
+    },
+    {
+      "url": "invoice/",
+      "name": "Invoices Menu",
+      "icon": "file-text",
+      "slug": "invoice"
+    },
+    {
+      "url": "invoices_payment_log/",
+      "name": "REP Menu",
+      "icon": "file-text",
+      "slug": "invoices_payment_log"
+    },
+    {
+      "url": "company",
+      "name": "Customers",
+      "icon": "user",
+      "slug": "company"
+    },
+    {
+      "url": "product",
+      "name": "Products",
+      "icon": "package",
+      "slug": "product"
+    },    
+    {
+      "name": "Receipts",
+      "icon": "file-text",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "quotation/",
+          "name": "Quotations Menu",
+          "icon": "circle",
+          "slug": "quotation"
+        },
+        {
+          "url": "sales_order",
+          "name": "Sales Notes Menu",
+          "icon": "circle",
+          "slug": "sales_order"
+        }
+      ]
+    },
+    {
+      "url": "report",
+      "name": "Reports",
+      "icon": "layout",
+      "slug": "report"
+    },
+    {
+      "name": "Configuration",
+      "icon": "settings",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "tax/",
+          "name": "Taxes",
+          "icon": "circle",
+          "slug": "tax"
+        },
+        {
+          "url": "setting",
+          "name": "Settings",
+          "icon": "circle",
+          "slug": "setting"
+        }
+      ]
+    },
+    {
+      "url": "subscription",
+      "name": "Subscription",
+      "icon": "activity",
+      "slug": "subscription"
+    },
+    {
+      "name": "Help",
+      "icon": "life-buoy",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "https://api.whatsapp.com/send?phone=5216641282251&text=Ticket de Soporte",
+          "name": "Ticket",
+          "icon": "circle",
+          "slug": "support/s/tickets"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?phone=5216641282251&text=Hola!",
+          "name": "Chat",
+          "icon": "circle",
+          "slug": "#"
+        }
+      ]
+    }
+  ]
+}
