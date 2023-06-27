@@ -11,6 +11,7 @@
 /public/vendors
 /storage/*.key
 /vendor
+/key_git
 .env
 .env.backup
 .phpunit.result.cache
