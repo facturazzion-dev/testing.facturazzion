@@ -12,7 +12,7 @@ $configData = Helper::applClasses();
 @endsection
 
 @section('content')
-<div class="auth-wrapper auth-cover bg-warning">
+<div class="auth-wrapper auth-cover bg-secondary">
   <div class="auth-inner row m-0">
     <!-- Brand logo-->
     <a class="brand-logo" href="#">
@@ -37,7 +37,7 @@ $configData = Helper::applClasses();
     <div class="d-none d-lg-flex col-lg-8 align-items-center p-5">
       <div class="w-100 d-lg-flex align-items-center justify-content-center px-5">
           <img class="img-fluid" src="{{asset('images/pages/login/devices.png')}}" alt="Login V2" />
-          <h1 class="text-white"><strong style="font-size: 65px" >AMBIENTE </strong> DE ENSAYO (cesar)  <strong>. . .</strong> </h1>
+          <h1 class="text-white"><strong style="font-size: 65px" >AMBIENTE </strong> DE ENSAYO <strong>. . .</strong> </h1>
       </div>
     </div>
     <!-- /Left Text-->
