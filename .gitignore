@@ -1453,5 +1453,3 @@ public/vendors/js/ui/prism-treeview.js
 public/vendors/js/ui/prism.min.js
 public/vendors/js/unison-js/unison-js.min.js
 public/vendors/js/waves/waves.min.js
-
-resources/views/login.blade.php
